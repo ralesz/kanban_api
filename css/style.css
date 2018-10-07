@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+
+body { color: #EDEDEF; background: #2A2A30; margin: 0 auto; background-color: #b5463c; font-family: 'Acme'; }
+
+ul { list-style-type: none; }
+
+.board { text-align: center; font-size: 22px; }
+
+.board header { font-family: 'Acme'; color: #000; font-size: 60px; }
+
+.board button { margin-bottom: 30px; height: 50px; width: 200px; border: 1px solid #333; font-size: 25px; border-radius: 15px; }
+
+.board button:hover { background-color: #a8a7a7; }
+
+.board .create-column { height: 50px; width: 300px; }
+
+.board .create-column:hover { background-color: #f0dada; transition: 0.5s; }
+
+.column-container { padding: 10px; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; background: #cfc2cc; max-width: 100%; margin: 0 auto; }
+
+.column-container .column { width: 25%; margin: 30px; background-color: #ad6f69; padding: 0; width: 300px; text-align: center; }
+
+.column-container .column .btn-delete { padding: 0; height: 30px; width: 100px; border-radius: 2px; background-color: #cfc2cc; font-size: 12px; position: relative; }
+
+.column-container .column-title { font-size: 30px; color: #f0dada; background-color: #333; padding: 10px 0; margin: 0 0 50px 0; text-align: center; text-justify: auto; }
+
+.card { padding: 10px; background-color: #cccccc; border: 2px solid #000; text-align: center; margin-right: 30px; margin-bottom: 10px; }
+
+.card .card-description { color: black; font-size: 20px; }
+
+.add-card { margin-left: 10px; background-color: #b5463c; border: 1px solid black; }
+
+.add-card:hover { background-color: #ae98aa; border: 1px solid #333; transition: 0.5s; color: #fff; }
